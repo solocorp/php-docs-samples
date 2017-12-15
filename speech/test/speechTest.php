@@ -68,12 +68,12 @@ class speechTest extends \PHPUnit_Framework_TestCase
     {
         self::$bucketName = getenv('GOOGLE_BUCKET_NAME');
         return [
-            ['transcribe', __DIR__ . '/data/audio32KHz.raw', 'LINEAR16', '32000'],
-            ['transcribe', __DIR__ . '/data/audio32KHz.flac', 'FLAC', '32000'],
-            ['transcribe-gcs', 'gs://' . self::$bucketName . '/audio32KHz.raw', 'LINEAR16', '32000'],
-            ['transcribe-async-gcs', 'gs://' . self::$bucketName . '/audio32KHz.raw', 'LINEAR16', '32000'],
-            ['transcribe-words', __DIR__ . '/data/audio32KHz.flac', 'FLAC', '32000'],
-            ['transcribe-async-words', __DIR__ . '/data/audio32KHz.raw', 'LINEAR16', '32000'],
+            // ['transcribe', __DIR__ . '/data/audio32KHz.raw', 'LINEAR16', '32000'],
+            // ['transcribe', __DIR__ . '/data/audio32KHz.flac', 'FLAC', '32000'],
+            // ['transcribe-gcs', 'gs://' . self::$bucketName . '/audio32KHz.raw', 'LINEAR16', '32000'],
+            // ['transcribe-async-gcs', 'gs://' . self::$bucketName . '/audio32KHz.raw', 'LINEAR16', '32000'],
+            // ['transcribe-words', __DIR__ . '/data/audio32KHz.flac', 'FLAC', '32000'],
+            // ['transcribe-async-words', __DIR__ . '/data/audio32KHz.raw', 'LINEAR16', '32000'],
             ['transcribe-stream', __DIR__ . '/data/audio32KHz.raw', 'LINEAR16', '32000'],
         ];
     }
