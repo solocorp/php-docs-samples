@@ -30,6 +30,8 @@ class IamCommandTest extends \PHPUnit_Framework_TestCase
 
     public static function setUpBeforeClass()
     {
+        \Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
         $path = getenv('GOOGLE_APPLICATION_CREDENTIALS');
         self::$hasCredentials = $path && file_exists($path) &&
             filesize($path) > 0;

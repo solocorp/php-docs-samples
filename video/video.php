@@ -24,6 +24,8 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputDefinition;
 
+\Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
 $application = new Application('Cloud Video Intelligence');
 
 $inputDefinition = new InputDefinition([

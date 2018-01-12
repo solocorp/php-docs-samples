@@ -1,6 +1,6 @@
 {
   "require": {
-    "google/cloud-spanner": "^0.4",
+    "google/cloud": "dev-transport",
     "symfony/console": "^3.2"
   },
   "require-dev": {
@@ -24,5 +24,6 @@
       "src/read_only_transaction.php",
       "src/read_stale_data.php"
     ]
-  }
+  },
+  "minimum-stability":"dev"
 }

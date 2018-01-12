@@ -26,6 +26,8 @@ use Symfony\Component\Console\Input\InputDefinition;
 # Includes the autoloader for libraries installed with composer
 require __DIR__ . '/vendor/autoload.php';
 
+\Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
 $application = new Application('Stackdriver Monitoring');
 
 $inputDefinition = new InputDefinition([

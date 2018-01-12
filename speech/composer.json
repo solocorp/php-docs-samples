@@ -1,6 +1,6 @@
 {
     "require": {
-        "google/cloud": "dev-transport as 0.47",
+        "google/cloud": "dev-transport as 0.50",
         "symfony/console": "^3.0"
     },
     "autoload": {

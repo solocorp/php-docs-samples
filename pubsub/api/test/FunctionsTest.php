@@ -26,6 +26,8 @@ class FunctionsTest extends \PHPUnit_Framework_TestCase
 {
     public function testPubSubClient()
     {
+        \Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
         if (!$projectId = getenv('GOOGLE_PROJECT_ID')) {
             $this->markTestSkipped('No project ID');
         }

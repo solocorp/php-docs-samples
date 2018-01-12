@@ -79,6 +79,8 @@ function inspect_datastore(
         $storageConfig,
         $outputConfig);
 
+    var_dump($operation);exit;
+
     $operation->pollUntilComplete();
 
     if ($operation->operationSucceeded()) {
