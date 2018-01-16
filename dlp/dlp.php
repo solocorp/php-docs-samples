@@ -23,6 +23,8 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 
+\Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
 $application = new Application('Cloud DLP');
 
 $application->add(new Command('inspect-string'))
