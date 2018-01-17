@@ -18,6 +18,8 @@
 # Includes the autoloader for libraries installed with composer
 require __DIR__ . '/vendor/autoload.php';
 
+\Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
 # [START dlp_quickstart]
 use Google\Cloud\Dlp\V2beta1\DlpServiceClient;
 use Google\Cloud\Dlp\V2beta1\ContentItem;

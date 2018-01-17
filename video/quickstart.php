@@ -18,6 +18,8 @@
 # Includes the autoloader for libraries installed with composer
 require __DIR__ . '/vendor/autoload.php';
 
+\Google\ApiCore\TransportFactory::disableRestPerformanceNotice();
+
 # [START videointelligence_quickstart]
 use Google\Cloud\VideoIntelligence\V1\VideoIntelligenceServiceClient;
 use Google\Cloud\Videointelligence\V1\Feature;

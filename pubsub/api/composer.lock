@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/GoogleCloudPlatform/google-cloud-php.git",
-                "reference": "111363f8cbcbf38908747a54c26f3b258d9467ea"
+                "reference": "b102521b65adef69487caf6990e100f0bd89533f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GoogleCloudPlatform/google-cloud-php/zipball/111363f8cbcbf38908747a54c26f3b258d9467ea",
-                "reference": "111363f8cbcbf38908747a54c26f3b258d9467ea",
+                "url": "https://api.github.com/repos/GoogleCloudPlatform/google-cloud-php/zipball/b102521b65adef69487caf6990e100f0bd89533f",
+                "reference": "b102521b65adef69487caf6990e100f0bd89533f",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +222,7 @@
                 "translation",
                 "vision"
             ],
-            "time": "2018-01-09 21:39:55"
+            "time": "2018-01-16 18:58:13"
         },
         {
             "name": "google/gax",
@@ -230,12 +230,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "37b65dfc93a604a99bbfff0561763565f0fb0346"
+                "reference": "087b9b94bc326ab200ad172bc667f42b4f9b0647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/37b65dfc93a604a99bbfff0561763565f0fb0346",
-                "reference": "37b65dfc93a604a99bbfff0561763565f0fb0346",
+                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/087b9b94bc326ab200ad172bc667f42b4f9b0647",
+                "reference": "087b9b94bc326ab200ad172bc667f42b4f9b0647",
                 "shasum": ""
             },
             "require": {
@@ -266,7 +266,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-01-11 17:37:22"
+            "time": "2018-01-16 19:01:13"
         },
         {
             "name": "google/proto-client",
@@ -846,12 +846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "21d679130b53850f8bb03870b6df7c4ec4653160"
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/21d679130b53850f8bb03870b6df7c4ec4653160",
-                "reference": "21d679130b53850f8bb03870b6df7c4ec4653160",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/bba83ad77bb9deb6d3c352a7361b818e415b221d",
+                "reference": "bba83ad77bb9deb6d3c352a7361b818e415b221d",
                 "shasum": ""
             },
             "require": {
@@ -920,7 +920,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-12-10 17:04:55"
+            "time": "2018-01-13 22:22:03"
         },
         {
             "name": "rize/uri-template",
@@ -972,12 +972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d"
+                "reference": "883b17e8e983aab47f7bcae8ba69512671dc5463"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8394c8ef121949e8f858f13bc1e34f05169e4e7d",
-                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/883b17e8e983aab47f7bcae8ba69512671dc5463",
+                "reference": "883b17e8e983aab47f7bcae8ba69512671dc5463",
                 "shasum": ""
             },
             "require": {
@@ -1033,7 +1033,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03 07:37:34"
+            "time": "2018-01-16 17:26:02"
         },
         {
             "name": "symfony/debug",
@@ -1041,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245"
+                "reference": "fa4249925a519ea1fde8de2b7883d8f5002ff399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/603b95dda8b00020e4e6e60dc906e7b715b1c245",
-                "reference": "603b95dda8b00020e4e6e60dc906e7b715b1c245",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/fa4249925a519ea1fde8de2b7883d8f5002ff399",
+                "reference": "fa4249925a519ea1fde8de2b7883d8f5002ff399",
                 "shasum": ""
             },
             "require": {
@@ -1089,7 +1089,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03 17:14:19"
+            "time": "2018-01-13 14:04:53"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1204,11 +1204,11 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "phpdocumentor/reflection-common",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
@@ -1413,7 +1413,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-12-21T16:59:48+00:00"
+            "time": "2017-12-21 16:59:48"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1475,7 +1475,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06T15:47:00+00:00"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1522,7 +1522,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2017-11-27T13:52:08+00:00"
+            "time": "2017-11-27 13:52:08"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1612,7 +1612,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2018-01-06T05:27:16+00:00"
+            "time": "2018-01-06 05:27:16"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -1661,7 +1661,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-12-04T15:11:28+00:00"
+            "time": "2017-12-04 15:11:28"
         },
         {
             "name": "phpunit/phpunit",
@@ -1733,7 +1733,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-06-23T12:44:27+00:00"
+            "time": "2017-06-23 12:44:27"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1789,7 +1789,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02T06:51:40+00:00"
+            "time": "2015-10-02 06:51:40"
         },
         {
             "name": "sebastian/comparator",
@@ -1853,7 +1853,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-03-07T10:34:43+00:00"
+            "time": "2017-03-07 10:34:43"
         },
         {
             "name": "sebastian/diff",
@@ -1905,7 +1905,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-05-22T07:24:03+00:00"
+            "time": "2017-05-22 07:24:03"
         },
         {
             "name": "sebastian/environment",
@@ -1955,7 +1955,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2017-02-28T08:18:59+00:00"
+            "time": "2017-02-28 08:18:59"
         },
         {
             "name": "sebastian/exporter",
@@ -2022,7 +2022,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-02-26T13:09:30+00:00"
+            "time": "2017-02-26 13:09:30"
         },
         {
             "name": "sebastian/global-state",
@@ -2073,7 +2073,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2017-02-23T14:11:06+00:00"
+            "time": "2017-02-23 14:11:06"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2126,7 +2126,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-10-03T07:41:43+00:00"
+            "time": "2016-10-03 07:41:43"
         },
         {
             "name": "sebastian/version",
@@ -2219,7 +2219,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-01-03 07:37:34"
         },
         {
             "name": "webmozart/assert",
@@ -2269,7 +2269,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23T20:04:41+00:00"
+            "time": "2016-11-23 20:04:41"
         }
     ],
     "aliases": [
