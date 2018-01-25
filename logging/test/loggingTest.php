@@ -26,6 +26,8 @@ use Symfony\Component\Console\Tester\CommandTester;
  */
 class loggingTest extends \PHPUnit_Framework_TestCase
 {
+    const RETRY_COUNT = 5;
+
     use EventuallyConsistentTestTrait;
 
     /* @var $hasCredentials boolean */
@@ -169,7 +171,7 @@ class loggingTest extends \PHPUnit_Framework_TestCase
                 '--logger' => $loggerName,
             ]);
             $this->assertContains(': Test Message', $output);
-        }, 10);
+        }, self::RETRY_COUNT, true);
     }
 
     /**
